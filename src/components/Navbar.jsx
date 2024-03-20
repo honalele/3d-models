@@ -7,7 +7,7 @@ const Navbar = () => {
 				to="/"
 				className="w-500 h-10 rounded-lg bg-white items-center justify-center flex font-bold shadow-md"
 			>
-				<p className="blue-gradient_text">GUTP BIM</p>
+				<p className="blue-gradient_text">Hona</p>
 			</NavLink>
 			<nav className="flex text-lg gap-7 font-medium">
 				<NavLink
@@ -16,7 +16,7 @@ const Navbar = () => {
 						isActive ? "text-blue-500" : "text-black"
 					}
 				>
-					BIMプロジェクト
+					Project
 				</NavLink>
 				<NavLink
 					to="/models"
@@ -24,7 +24,7 @@ const Navbar = () => {
 						isActive ? "text-blue-500" : "text-black"
 					}
 				>
-					3Dモデル
+					Models
 				</NavLink>
 			</nav>
 		</header>
